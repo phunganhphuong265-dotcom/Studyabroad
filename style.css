@@ -1,0 +1,182 @@
+/* ===== Global ===== */
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides figure,
+.mySlides figcaption {
+  background: transparent !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+.mySlides img {
+  display: block;
+  width: 100%;
+  height: 520px;     
+  object-fit: cover; 
+}
+
+
+.mySlides figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+/* FIGCAPTION CHO SLIDESHOW */
+.mySlides figcaption {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  padding: 18px 25px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.mySlides figcaption h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+
+/* ===== Theme Colors ===== */
+.w3-blue-theme {
+  background-color: #0B2C57 !important;
+  color: white !important;
+}
+
+.w3-text-blue-theme {
+  color: #0B2C57 !important;
+}
+
+/* ===== Buttons ===== */
+button.w3-blue-theme {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button.w3-blue-theme:hover {
+  opacity: 0.85;
+}
+
+/* ===== Cards ===== */
+.w3-card-4 img {
+  object-fit: cover;
+  height: 200px;
+}
+
+
+/* ===== Navbar Fix ===== */
+.w3-top .w3-bar a:hover {
+  background-color: #163a6b !important;
+}
+
+
+/* ARTICLE – Nhóm nội dung riêng biệt */
+article {
+  padding: 20px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+/* FIGURE – Khối hình ảnh */
+figure {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* FIGCAPTION – Chú thích ảnh */
+figcaption {
+  padding: 16px;
+  text-align: center;
+  font-size: 15px;
+  background: #f7f7f7;
+  color: #0B2C57;
+}
+
+/* ASIDE – Quảng cáo hoặc liên kết ngoài */
+aside {
+  margin: 40px auto;
+  padding: 18px 20px;
+  max-width: 900px;
+  border-left: 6px solid #0B2C57;
+  background: #f0f4fa;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* FOOTER – Cuối trang */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #0B2C57;
+  color: white;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* ===== Global ===== */
+body { font-family: "Lato", sans-serif; margin: 0; padding: 0; }
+.mySlides { display: none; }
+.mySlides img { width: 100%; height: 520px; object-fit: cover; }
+.mySlides figcaption { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 70%; padding: 18px 25px; text-align: center; background: rgba(0, 0, 0, 0.35); border-radius: 15px; }
+.mySlides figcaption h2 { color: #fff; margin: 0; font-size: 28px; font-weight: 700; }
+
+/* Theme Colors */
+.w3-blue-theme { background-color: #0B2C57 !important; color: white !important; }
+.w3-text-blue-theme { color: #0B2C57 !important; }
+
+/* Services – equal height */
+.service-card figcaption { min-height: 180px; display: flex; flex-direction: column; justify-content: space-between; }
+
+/* Timeline months left aligned */
+#timeline ul li { text-align: left !important; }
+
+/* Contact form spacing */
+.contact-input { margin-bottom: 12px !important; }
+
+#timeline ul li {
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+text-align: center !important;
+}
+#timeline ul li span {
+position: absolute;
+right: 20px;
+}
